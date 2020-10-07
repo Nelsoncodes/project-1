@@ -1,0 +1,101 @@
+body{
+	background-color: #ff7a7a;
+	background-image: url(./bg-intro-desktop.png);
+
+font-family: Poppins, sans-serif;
+}
+.parent{
+	/*background-color: orange;*/
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+
+.child1{/*
+	background-color: blue;*/
+	flex: 1;
+	font-size: x-large;
+	color: white;
+}
+.child1 h1{
+    font-size: 44px;
+}
+.child1 p {
+    font-size: 17px;
+}
+.child2{
+    /*background-color: green;*/
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.try-it{
+	background-color: #6055a5;
+width: 90%;
+    /*height: 30px;*/
+   border-radius: 10px;
+    /*margin-top: 10px;*/
+    padding: 10px;
+margin-bottom: 20px;
+}
+/*#form{*/
+	/*width: 80%;*/
+/*}*/
+.try-it p{
+	color: #ff7a7a;
+}
+#form input{
+
+    height: 30px;
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+margin-bottom: 20px;
+
+}
+#form button{
+	background-color: #38cc8c;
+	   height: 56px;
+    width: 100%;
+    border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  color: white;
+  /*margin-bottom: 20px;*/
+
+}
+.terms{
+	color: #bbbbbb;
+	font-size: 10px;
+}
+.terms a{
+	text-decoration-line: none;
+	color: red;
+	font-size: 10px;
+}
+.mother {
+	width: 90%;
+
+    background: white;
+    padding: 10px;
+}
+}
+.mother input{
+	height: 30px;
+    width: 96%;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+margin-bottom: 20px;
+}
+
